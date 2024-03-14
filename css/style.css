@@ -1124,7 +1124,7 @@ figure.testimonal-Card .author h5 {
   display: flex;
   justify-content: space-around;
   flex-wrap: nowrap;
-  background-color: rgb(6, 16, 37);
+  background-color: #232323;
 }
 
 .footer-side-col {
