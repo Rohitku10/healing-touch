@@ -493,8 +493,8 @@ hr {
       #fff 10%,
       #f9f9f9 15%,
       #fff 20%,
-      #f9f9f9 25%, */
-      #fff 30%,
+      #f9f9f9 25%,
+      #fff (30%,
       #f9f9f9 35%,
       #fff 40%,
       #f9f9f9 45%,
@@ -509,7 +509,7 @@ hr {
       #fff 90%,
       #f9f9f9 95%,
       #fff 100%);
-}
+} */
 
 .book::after {
   position: absolute;
@@ -643,7 +643,7 @@ footer {
   display: flex;
   justify-content: center;
   flex-wrap: nowrap;
-  background-color: rgb(6, 16, 37);
+  background-color: #232323;
 }
 
 .footer-side-col {
