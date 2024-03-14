@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE edge" />
@@ -30,26 +31,16 @@
     #emptyFieldsAlert {
       background-color: red;
     }
-    
+
     input[type="password"]::-webkit-credentials-auto-fill-button,
     input[type="password"]::-webkit-contacts-auto-fill-button,
     input[type="password"]::-ms-reveal {
-        display: none;
-      }
+      display: none;
+    }
   </style>
   <title>Sukoon - Login</title>
 </head>
-  <body onload="myfunction()">
-    <div id="load">
-      <div
-        style="
-          background-color: white;
-          height: 25vh;
-          width: 100%;
-          position: relative;
-          top: -70px;
-        "></div>
-  </div>
+
 
   <div class="alert" id="emptyFieldsAlert" style="display: none">
     Please fill in all fields!
@@ -180,11 +171,11 @@
 
     toggleLoginPassword.addEventListener("click", function (e) {
 
-      if(loginPassword.type == "text"){
+      if (loginPassword.type == "text") {
         loginPassword.type = "password";
         toggleLoginPassword.className = "fas fa-eye-slash";
       }
-      else if(loginPassword.type == "password"){
+      else if (loginPassword.type == "password") {
         loginPassword.type = "text";
         toggleLoginPassword.className = "fas fa-eye";
       }
@@ -195,11 +186,11 @@
 
     toggleSignupPassword.addEventListener("click", function (e) {
 
-      if(signupPassword.type == "text"){
+      if (signupPassword.type == "text") {
         signupPassword.type = "password";
         toggleSignupPassword.className = "fas fa-eye-slash";
       }
-      else if(signupPassword.type == "password"){
+      else if (signupPassword.type == "password") {
         signupPassword.type = "text";
         toggleSignupPassword.className = "fas fa-eye";
       }
@@ -207,4 +198,5 @@
   </script>
 
 </body>
+
 </html>

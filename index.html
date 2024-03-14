@@ -56,10 +56,6 @@
   }
 </style>
 
-<body onload="myFunction()">
-  <div class="loading-wrapper">
-    <img src="./logo.png" id="loading" />
-  </div>
 
   <!-- Back to top button -->
   <div id="back-top-div" class="back-top-wrap">
@@ -75,15 +71,14 @@
           <li><a href="#">HOME</a></li>
           <li><a href="#about">ABOUT</a></li>
           <li><a href="#services">SERVICES </a></li>
-          <li><a href="html/contact.html">CONTACT US </a></li>
+          <li><a href="#">CONTACT US </a></li>
         </ul>
       </div>
-      <button class="login-button"><a href="html/login.html">SignUp / Login</a></button>
       <div class="hamburger" id="ham">
         <i class="cancel fa-solid fa-xmark"></i>
 
-        <svg class="burger" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em"
-          xmlns="http://www.w3.org/2000/svg">
+        <svg class="burger" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024"
+          height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
           <path
             d="M904 160H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0 624H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0-312H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8z">
           </path>
@@ -95,23 +90,17 @@
         <li><a href="#">HOME</a></li>
         <li><a href="#about">ABOUT</a></li>
         <li><a href="#services">SERVICES </a></li>
-        <li><a href="html/contact.html">CONTACT US </a></li>
+        <li><a href="#">CONTACT US </a></li>
       </ul>
     </div>
     <div class="content">
-      <h1>Welcome to HEALING TOUCH</h1>
+      <h1>Welcome HEALING TOUCH</h1>
       <div class="container">
-        <h3><span class="auto-type" style="font-size: 40px;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"></a></span></h3>
+        <h3><span class="auto-type"
+            style="font-size: 40px;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"></a></span>
+        </h3>
       </div>
-      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-      <script>
-        var typed = new Typed(".auto-type", {
-          strings: ["The one-step solution to get relief from your stress. Live a stress-free life!"],
-          typeSpeed: 50,
-          backspeed: 50,
-          loop: true
-        })
-      </script>
+      <p>-A place, where you can be Yourself</p>
       <a href="#services" class="rainbow-button" alt="Explore"></a>
     </div>
 
@@ -122,11 +111,12 @@
     <h1 data-aos="flip-right">About Us</h1>
     <div class="max-width">
       <div data-aos="zoom-in" class="photo"><img src="./images/about.jpg" alt="" height="300px" width="330px"></div>
-      <div class="about-content">
-        <p data-aos="fade-left" class="text-1"> We are a team of open source contributors who have created this website
-          Sukoon with the aim to provide a <span>one step solution</span> to get relief from stress. </p>
-        <p data-aos="fade-left" class="text-3">We hope that everyone can live a <span>stress free life </span>with the
-          help of<span> sukoon.</span></p>
+      <div class="about-content"><br>
+        <p data-aos="fade-left" class="text-1"> Our solution proposes an array of features tailored to cater to various
+          aspects of holistic well-being. <span>Empowering Health</span> is a solution that makes it easier for people in underserved
+          areas to get medical help and talk with their doctors.Our website offers quick access to nearby doctors,
+          relaxing therapy sessions, and even yoga videos. With simple scheduling and language support, we make sure
+          everyone can get the care they need easily.</p>
       </div>
     </div>
 
@@ -192,20 +182,6 @@
           </a>
         </div>
       </div>
-      <div data-aos="zoom-in" data-aos-duration="800" class="responsive talk">
-        <div class="round-image">
-          <img src="./images/talking.png" loading="lazy" alt="talking" />
-        </div>
-        <div class="description">
-          <h2>Talking Therapy</h2>
-          <p>
-            A quick short conversation can often bring smile to our face.
-          </p>
-          <a href="html/talkingTherapy.html">
-            Let's Explore
-          </a>
-        </div>
-      </div>
       <div data-aos="zoom-in" data-aos-duration="800" class="responsive doctor">
         <div class="round-image">
           <img src="./images/doctor.png" alt="doctor" loading="lazy" />
@@ -215,21 +191,7 @@
           <p>
             If you're facing too many problems, you should consult a doctor.
           </p>
-          <a href="https://www.practo.com/counselling-psychology" target="_blank">
-            Let's Explore
-          </a>
-        </div>
-      </div>
-      <div class="responsive child">
-        <div class="round-image">
-          <img src="./images/child.jpg" alt="child" loading="lazy" />
-        </div>
-        <div class="description">
-          <h2>Child Therapy</h2>
-          <p>
-            Children make us forget about worries with their innocence.
-          </p>
-          <a href="./html/childTherapy.html">
+          <a href="#services">
             Let's Explore
           </a>
         </div>
@@ -248,20 +210,7 @@
           </a>
         </div>
       </div>
-      <div class="responsive special">
-        <div class="round-image">
-          <img src="./images/specialtherapy.jpg" alt="special" loading="lazy" />
-        </div>
-        <div class="description">
-          <h2>Special Therapy</h2>
-          <p>
-            If you need special attention and help from us.
-          </p>
-          <a href="./html/specialTherapy.html" target="_blank">
-            Let's Explore
-          </a>
-        </div>
-      </div>
+    </div>
     </div>
   </section>
 
