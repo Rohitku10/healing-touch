@@ -491,7 +491,7 @@ footer{
   display: flex;
   justify-content: center;
   flex-wrap: nowrap;
-  background-color: rgb(6, 16, 37);
+  background-color: #232323;
 }
 
 .footer-side-col{
