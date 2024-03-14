@@ -254,7 +254,7 @@ header {
 /*Benefits section*/
 .benefits{
   color: #00171f;
-  background-color: #adb5bd;
+  background-color: rgb(255, 211, 129);
 }
 
 .benefits h1 {
@@ -290,7 +290,7 @@ header {
 }
 /*Aasans section*/
 .aasan {
-  background-color: #00171f;
+  background-color: #062b00;
   padding: 2rem 1em;
 }
 
@@ -324,7 +324,7 @@ header {
 }
 
 .atext h1 {
-  color: #007EA7;
+  color: rgb(255, 211, 129);
   font-weight: bolder;
 }
 
@@ -371,7 +371,7 @@ a {
 /*Videos section*/
 .videos{
   padding: 2rem 0;
-  background-color: #adb5bd;
+  background-color: rgb(145, 121, 75);
 }
 
 .videos .flip-card {
