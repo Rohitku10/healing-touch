@@ -456,7 +456,7 @@ nav .fa {
 /* ABOUT SECTION */
 #about {
   /* background: #1c1c1c; */
-  background-color: #000  ;
+  background-color: #232323  ;
 
   width: 100%;
   padding: 5px 0px;
@@ -626,7 +626,7 @@ margin-bottom: 1rem;
 
 /* SERVICES SECTION */
 #services {
-  background-color: #092e3c;
+  background-color: #000;
   padding-top: 60px;
   width: 100%;
 }
@@ -651,7 +651,7 @@ margin-bottom: 1rem;
 .responsive {
   color: whitesmoke;
   width: 30%;
-  border: 1px solid rgba(245, 245, 245, 0.146);
+  border: 1.5px solid rgba(255, 255, 255, 0.264);
   border-radius: 1.5rem;
   text-align: center;
   padding: 2rem;
@@ -1122,7 +1122,7 @@ figure.testimonal-Card .author h5 {
   bottom: 0;
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   flex-wrap: nowrap;
   background-color: rgb(6, 16, 37);
 }
