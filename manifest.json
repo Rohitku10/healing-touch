@@ -1,9 +1,9 @@
 {
-    "short_name": "Sukoon",
-    "name": "Live a stress-free life!",
+    "short_name": "Healing  touch",
+    "name": "A place where you can be yourself",
     "icons": [
       {
-        "src": "images/favicon-enhanced.png",
+        "src": "logo.png",
         "sizes": "64x64 32x32 24x24 16x16",
         "type": "image/png",
         "purpose": "maskable any"
